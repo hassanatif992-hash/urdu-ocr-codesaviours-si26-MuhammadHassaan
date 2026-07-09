@@ -11,3 +11,24 @@ Urdu OCR is harder than English OCR because Urdu is written in a cursive style w
 ## Real-world uses of Urdu OCR
 
 Urdu OCR can be used to digitize old Urdu books, newspapers, and historical records. It can help offices, schools, and libraries convert scanned Urdu documents into editable text. It can also be useful for reading Urdu forms, signboards, and printed documents automatically.
+# Week 2 Progress
+
+## Image Preprocessing
+
+- Converted images to grayscale.
+- Resized images while maintaining aspect ratio.
+- Applied Gaussian Blur for noise reduction.
+- Applied Adaptive Thresholding for binarization.
+- Saved processed images into data/processed.
+
+## Tesseract OCR Testing
+
+Tesseract OCR was tested on preprocessed Urdu images.
+
+## Gap Analysis
+
+Tesseract produced weak results on Urdu text. Some outputs were empty, some characters were incorrect, and connected Urdu letters were difficult to recognize.
+
+Urdu is cursive, letters connect with each other, and many letters differ only by dots. Because of this, Tesseract is not fully reliable for Urdu OCR.
+
+A dedicated Urdu OCR model is required for better accuracy.
