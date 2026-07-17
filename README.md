@@ -32,3 +32,22 @@ Tesseract produced weak results on Urdu text. Some outputs were empty, some char
 Urdu is cursive, letters connect with each other, and many letters differ only by dots. Because of this, Tesseract is not fully reliable for Urdu OCR.
 
 A dedicated Urdu OCR model is required for better accuracy.
+
+## Week 3 Progress
+
+### Dataset Expansion
+
+- Expanded the Urdu OCR dataset to 205 valid image-text pairs.
+- Updated labels.csv with 205 entries.
+- Added synthetic Urdu text images.
+- Verified that there are no missing files, empty labels, or duplicate image paths.
+
+### PyTorch Dataset and DataLoader
+
+- Created a custom UrduOCRDataset class.
+- Implemented __init__, __len__, and __getitem__.
+- Used the TrOCR processor for images and text labels.
+- Split the dataset into 164 training and 41 testing samples.
+- Successfully loaded a batch using PyTorch DataLoader.
+
+**My dataset has 205 images and loads correctly.**
