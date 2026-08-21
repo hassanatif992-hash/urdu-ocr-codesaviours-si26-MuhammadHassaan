@@ -211,3 +211,9 @@ urdu-ocr-codesaviours-si26-MuhammadHassaan/
 ├── README.md
 │
 └── Week notebooks
+
+## Author
+
+Muhammad Hassaan  
+Machine Learning Intern — Code Saviours SI-26  
+2026
