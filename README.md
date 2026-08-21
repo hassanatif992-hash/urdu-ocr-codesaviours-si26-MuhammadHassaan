@@ -176,7 +176,7 @@ https://urdu-ocr-codesaviours-si26-muhammadhassaan-b5iavqfd2cfuqhasnzq.streamlit
 
 **Loom Demonstration:**
 
-PASTE YOUR LOOM LINK HERE
+https://www.loom.com/share/e635702e69824d7d81d6c71b2b3b8f77
 
 ---
 
