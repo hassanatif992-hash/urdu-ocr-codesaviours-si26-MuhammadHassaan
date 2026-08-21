@@ -169,8 +169,7 @@ A Streamlit application was developed to provide a simple interface for the Urdu
 
 **Streamlit Application:**
 
-PASTE YOUR STREAMLIT LINK HERE
-
+https://urdu-ocr-codesaviours-si26-muhammadhassaan-b5iavqfd2cfuqhasnzq.streamlit.app/
 ---
 
 ## Demo Video
